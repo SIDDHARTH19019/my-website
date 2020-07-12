@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, orange, red )fixed;
+    padding: 50px;
+    margin: 30px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+     list-style: none;
+     padding: 2%;
+    
+}
+nav ul li:hover {
+    color: whitesmoke;
+    background-color: tomato;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+header div {
+    background-color:cornsilk;
+    padding: 20px;
+}
+img {
+    width: 750px;
+    height: 380px;
+}
+.projects {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    grid-gap: 20px;
+}
+.homework {
+    background-color: cornsilk;
+border: 1px solid red;
+padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h3 {
+text-align: center;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+}
